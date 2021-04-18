@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none; /* altyazıları kaldırır*/
+    color: #fff;
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Navbar Section */
+#navbar{
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    height: 80;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    background: #fff;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Home Section */
+
+#home{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+border-bottom: 1px grey rgb(204, 24, 24);
+}
+#home img{
+    max-width: 250px;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name{
+    text-align: center;
+}
+
+
+#home .name h2{
+    margin-bottom: 00.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+/*Traning */
+#training{
+    color: #fff;
+    padding: 1rem;
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#training .items .item:hover{
+    color:chocolate;
+
+}
+#kurslar{
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.courses .course{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+     
+}
+.courses .course .course-image{
+    margin-right: 0.5rem;
+    position: relative;
+     
+}
+.courses .course .course-image img{
+    border-radius: 8px;
+       
+}
+
+.courses .course .course-image span {
+    background: red;
+    color: #fff;
+    border: 1px solid gray;
+    padding: 0.1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+       
+}
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+}
+.courses .course .course-info .description{
+    letter-spacing: 1.2px;
+    margin-top: 0.35rem;
+    opacity: 0.7;
+}
+
+.courses .course .course-info .instructor{
+    font-size: 0.75rem;
+    margin-top: 0.35rem;
+    opacity: 0.7;
+}
+.courses .course .course-info .rating{
+    font-size: 0.75rem;
+    margin-top: 0.35rem;
+    opacity: 0.7;
+}
+
+
+
+.container{
+    background:336ea2;
+}
+
+.container .courses{
+   display: flex;
+   flex-direction: column;
+    
+}
